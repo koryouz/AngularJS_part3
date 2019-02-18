@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="testCtrl">
+  <head>
+    <meta charset="utf-8">
+    <title>Exercice 5</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Exercice 5</h1>
+    <p>Dans le fichier html fourni, n'afficher que les 150 premiers caractères de la variable article.</p>
+    <div>
+      {{article | limitTo : 150}}
+    </div>
+  </body>
+</html>
